@@ -18,19 +18,19 @@
             <nav class="menu">
               <a class="logo" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
               <ul class="menu__list">
-                <li><a class="menu__link current" href="./index.html">Студія</a></li>
-                <li><a class="menu__link" href="./portfolio.html">Портфоліо</a></li>
+                <li><a class="menu__link" href="./index.html">Студія</a></li>
+                <li><a class="menu__link current" href="./portfolio.html">Портфоліо</a></li>
                 <li><a class="menu__link" href="#">Контакти</a></li>
               </ul>
             </nav>
             <ul class="contact">
               <li><a class="contact__link" href="mailto:info@devstudio.com">
-                <svg width="16" height="15">
+                <svg class="contact__icon" width="16" height="15">
                   <use href="./images/symbol-defs.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a></li>
               <li><a class="contact__link" href="tel:+380961111111">
-                <svg width="10" height="16">
+                <svg class="contact__icon" width="10" height="16">
                   <use href="./images/symbol-defs.svg#icon-smartphone"></use>
                 </svg>+38 096 111 11 11</a></li>
             </ul>
@@ -54,8 +54,9 @@
                         <div class="portfolio__box">
                         <h2>Технокряк</h2>
                         <p>Веб-сайт</p>
+                    </div>
                     </a>
-                </div>
+                
                 </li>
                 <li class="portfolio__item">
                     <a href="">
@@ -135,7 +136,8 @@
 
       </main>
       <footer class="footer">
-        <div class="container">
+        <div class="container footer__box">
+          <div class="footer__contact">
         <a class="logo logo_footer" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
         <address>
           <ul class="address__list">
@@ -145,6 +147,40 @@
               <li class="address__item"><a class="address__link" href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
         </address>
+      </div>
+        <div class="footer__social">
+          <p class="footer__social-text">Приєднуйтесь</p>
+          <ul class="social__list">
+            <li>
+              <a href="#" class="social__link">
+                <svg width="20" height="20" class="social__icon">
+                  <use href="./images/symbol-defs1.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li >
+            <li>
+              <a href="#" class="social__link">
+                <svg width="20" height="20" class="social__icon">
+                  <use href="./images/symbol-defs1.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li >
+            <li>
+              <a href="#" class="social__link">
+                <svg width="20" height="20" class="social__icon">
+                  <use href="./images/symbol-defs1.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li >
+            <li>
+              <a href="#" class="social__link">
+                <svg width="20" height="20" class="social__icon">
+                  <use href="./images/symbol-defs1.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
         <!-- <div class="form">
           <input type="email" class="email" placeholder="E-mail">
         </div> -->
